@@ -1,0 +1,17 @@
+.list-module {
+    @extend .table-module;
+    .module-controls {
+        margin-bottom: 20px;
+        user-select: none;
+    }
+    .module-list {
+        .column-checkbox {
+            width: 5rem;
+            padding-right: 10px;
+            text-align: center;
+            .checkbox-container {
+                display: flex;
+            }
+        }
+    }
+}
